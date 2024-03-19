@@ -1,0 +1,186 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+    overflow-y: none;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    background-color: #fff;
+    color: #000;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+#search-button img {
+    width: 25px;
+    position: relative;
+    top: -8px;
+    left: 65%;
+    cursor: pointer;
+}
+
+#search-box input {
+    width: 20%;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    left: 46%;
+    padding: 8px 1px 8px 8px;
+    border-radius: 25px;
+    border-width: 4px;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+.icons .account {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left: 98%;
+}
+
+.icons .notify {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left: 94%;
+}
+
+.icons .videocreate {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left: 90%;
+}
+
+.icons .keyboard {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left: 58%;
+}
+
+.logo .youtube {
+    width: 100px;
+    padding: 0 0 32px 0;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+}
+
+.logo .menubar {
+    width: 30px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+ul li img {
+    width: 28px;
+    position: relative;
+    top: 8px;
+    right: 8%;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    transition: ease-in-out 0.2s;
+}
+
+.menu li {
+    padding: 10px 40px;
+    cursor: pointer;
+    border-color: transparent;
+    transition: ease-in-out 0.2s;
+}
+
+.menu li:hover {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: transparent;
+    transition: ease-in-out 0.1s;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.videos .channel {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    top: 61px;
+    left: 285px;
+}
+
+.videos span {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 20px;
+    left: 93%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: pre-line;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.videos ul {
+    list-style: none;
+    padding: 0 1px 0 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    cursor: pointer;
+}
+
+.videos img {
+    width: 355px;
+    height: 210px;
+    display: block;
+    position: relative;
+    top: 10%;
+    left: 80%;
+    border-radius: 12px;
+}
